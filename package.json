@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "jest --passWithNoTests --collectCoverage  --watch",
+    "test": "jest --passWithNoTests --coverage  --watch",
     "test:staged": "jest --passWithNoTests"
   },
   "keywords": [],
