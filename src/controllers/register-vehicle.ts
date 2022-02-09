@@ -1,3 +1,4 @@
+import { MissingFormatParameter } from "../errors/client-error";
 import { HttpRequest, HttpResponse } from "../interfaces/http-interface";
 
 export class RegisterVehicle {
@@ -8,7 +9,7 @@ export class RegisterVehicle {
             if(!httpRequest.body[props]) {
                 return {
                     statusCode: 400,
-                    body: new Error(`error in the: ${props}`)
+                    body: new MissingFormatParameter(props)
                 }
             }
         }
