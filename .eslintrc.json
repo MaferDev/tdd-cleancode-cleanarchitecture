@@ -1,0 +1,16 @@
+{
+    "extends": "standar-with-typescript",
+    "parseOptions": {
+        "project": "./tsconfig.json",
+        "ignoreTypeReferences": true
+    },
+    "rules": {
+        "@typescript-eslint/strict-boolean-expressions": "off",
+        "@typescript-eslint/consistent-type-definitions": "off",
+        "@typescript-eslint/coma-spacing": "off",
+        "@typescript-eslint/return-await": "off",
+        "@typescript-eslint/restrict-template-expressions": "off",
+        "@typescript-eslint/no-redeclare": "off",
+        "@typescript-eslint/no-extraneus-class": "off"
+    }
+}
